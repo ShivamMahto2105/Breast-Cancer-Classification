@@ -1,0 +1,16 @@
+This project uses **Machine and Deep Learning** to detect breast cancer by classifying tumors as benign or malignant. The dataset is taken from the Breast Cancer dataset available in **Scikit-learn.**
+
+**Code to Load Dataset**
+
+    from sklearn.datasets import load_breast_cancer
+    import pandas as pd
+
+    # Load dataset
+    data = load_breast_cancer()
+
+    # Convert to DataFrame
+    df = pd.DataFrame(data.data, columns=data.feature_names)
+    df['target'] = data.target
+
+    # Display first 5 rows
+    print(df.head())
