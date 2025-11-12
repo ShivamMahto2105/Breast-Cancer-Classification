@@ -27,6 +27,8 @@ The notebook demonstrates the complete process — from data preprocessing to mo
   - **Target:** Binary classification — *0 for malignant*, *1 for benign*  
 - **Shape:** 569 samples × 30 features
 
+Dataset Link: Scikit-learn Breast Cancer Dataset(https://scikit-learn.org/stable/datasets/toy_dataset.html#breast-cancer-dataset)
+
 ---
 
 ## ⚙️ Project Workflow
